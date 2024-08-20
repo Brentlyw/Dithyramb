@@ -61,7 +61,7 @@ Func<void(const std::string&)> encryptFile = [](const std::string& filePath) {
         std::vector<char> buffer((std::istreambuf_iterator<char>(inFile)), std::istreambuf_iterator<char>());
         inFile.close();
         for (char& byte : buffer) {
-            byte ^= 0xAA;  // XOR key - 0xAA for demonstration
+            byte ^= 0xAA; //XOR key - 0xAA for demonstration
         }
         std::ofstream outFile(filePath, std::ios::binary);
         outFile.write(buffer.data(), buffer.size());
