@@ -15,6 +15,6 @@ Upon development of Dithyramb the detections are below:
 - https://app.any.run/tasks/30ec6da6-f974-4e26-a3d7-73a16c02c984
 - https://www.virustotal.com/gui/file/20d41bf0390ce8a97ac766cc11efafc7d500d06eac463a344cfa8357f439db7c?nocache=1
 
-#How to compile?
+# How to compile?
   cl /EHsc /std:c++17 Dithyramb.cpp /link ole32.lib shell32.lib
 
