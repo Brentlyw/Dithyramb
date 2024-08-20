@@ -7,6 +7,10 @@ Dithyramb is a C++ ransomware foundation which uses indirection via monads, high
 - Uses functors to abstract operations, also allows for deferred execution
 - Uses lambdas to create inline anon functions to handle tasks with minimal boilerplate.
 
+# Notes
+- This is a *proof of concept* there is no ransom note, and it only targets the desktop.
+- XOR encryption with key 0xAA is also used for all files in the case of accidental encryption.
+  
 # What are the detections like?
 Upon development of Dithyramb the detections are below:  
 
